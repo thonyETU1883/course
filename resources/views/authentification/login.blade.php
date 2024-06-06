@@ -70,9 +70,9 @@
   </div>
 
   
-  <script src="{{ asset('assets/log/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('assets/log/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/log/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/log/js/main.js') }}"></script>
+  <script src="{{ secure_asset('assets/log/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/log/js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/log/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/log/js/main.js') }}"></script>
   </body>
 </html>
