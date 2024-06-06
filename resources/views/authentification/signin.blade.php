@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('assets/log/fonts/icomoon/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/log/fonts/icomoon/style.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('assets/log/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/log/css/owl.carousel.min.css') }}">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/log/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/log/css/bootstrap.min.css') }}">
      
     <!-- Style -->
-    <link rel="stylesheet" href="{{ asset('assets/log/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/log/css/style.css') }}">
     <title>Login #9</title>
   </head>
   <body>
