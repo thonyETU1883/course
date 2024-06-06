@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -36,6 +37,7 @@ class ResultatTemporaire extends Model
                 $arrivee = trim($rows[0][$i][6]);
                 
                 $emailequipe = $equipe."@gmail.com";
+                $datedenaissance = Carbon::createFromFormat('d/m/Y', $datedenaissance)->format('Y-m-d');
                 $listeResultatTemporaire[] = ['etape_rang'=>$etape_rang,
                     'numerodossard' => $nomdossard,
                     'nom' => $nom,
